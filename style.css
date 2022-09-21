@@ -23,19 +23,20 @@ header ul{
     list-style: none;
     display:flex;
 }
-header ul li{
+header ul a{
     width:150px;
     height: 60px;
     line-height: 60px;
     text-align: center;
     cursor: pointer;
 }
-header ul li:hover{
+header ul a:hover{
     background: linear-gradient(#cc33ff,#f4f4f4);
     color: #000;
 }
-header ul li :nth-child(1){
+header ul a :nth-child(1){
     border-top: 4px solid #cc33ff;
+    padding: 10px;
 }
 main {
     height: calc(100vh -60px);
